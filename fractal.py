@@ -87,7 +87,7 @@ def main():
     ax.imshow(grid.T, origin="lower", cmap='gray', vmin=np.min(grid), vmax=np.max(grid), 
               extent=[theta_1_ini[0], theta_1_ini[1], theta_2_ini[0], theta_2_ini[1]])
     ax.grid()
-    fig.savefig("Fractal_cropped.jpg")
+    fig.savefig("double_pendulum_fractal.jpg")
 
 
 if __name__ == "__main__":
