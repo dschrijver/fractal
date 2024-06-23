@@ -56,7 +56,7 @@ def main():
     NUM_PROCESSES = 6
     num_theta_ini = 500 # Number of pendulums in x and y direction
     dt = 0.01
-    t_final = 10_000
+    t_final = 100
     grav = 1.0
     m1 = 1.0
     m2 = 1.0
