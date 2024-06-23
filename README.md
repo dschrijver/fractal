@@ -37,4 +37,4 @@ sudo make install
 ```
 
 ## Running the simulation
-The programs [animate_double_pendulum.c](animate_double_pendulum.c) and [double_pendulum_fractal_animation.c](double_pendulum_fractal_animation.c) can be compiled and ran using the command ```make```. Settings can be changed in the respective header files. The python script can be run using a command like: ```python3 fractal.py```. The script is tested for Python 3.10.12. Settings can be changed in the 'Parameter Setup' section in [fractal.py](fractal.py). 
+The programs [animate_double_pendulum.c](animate_double_pendulum.c) and [double_pendulum_fractal_animation.c](double_pendulum_fractal_animation.c) can be compiled and ran using the command ```make animate_double_pendulum``` and ```make double_pendulum_fractal_animation```. Settings can be changed in the respective header files. The python script can be run using a command like: ```python3 fractal.py```. The script is tested for Python 3.10.12. Settings can be changed in the 'Parameter Setup' section in [fractal.py](fractal.py). 
